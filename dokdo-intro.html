@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+   <meta charset="utf-8"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+   <title>jQuery Mobile</title>
+   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+   <!-- CDN 컨텐츠딜리버리네트워크-->
+   <!--라이브러리를 특정서버에 넣고 연동을 해서 -->
+   <!--본  서비스페이지의 로딩이 빨라지게 함-->
+   <!--CDN전문서버에 파일을 올려서 로딩속도올림-->
+   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+   <!--제이쿼리 프레임워크 CDN-->
+   <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+   <!--제이쿼리 모바일 프레임워크 CDN-->
+<style>
+   li { list-style:none; }
+  .picture { list-style:none; padding:0; margin:0; }
+  .picture li { float:left; width:50%;}
+  .picture li a {display:block; margin:5px; border: 1px }
+  .picture li img { display:block; width:50%;  height:auto;}
+  .picture li img:hover { display:block; width:100%;  height:auto;} 
+  /* 자주사용되는 태그의 스타일을 헤드태그에서 설정함*/
+</style>
+</head>
+
+<body>
+<div data-theme="b">
+   <!--다이브태그의 데이터테마-->
+   <!--태그의 색상설정-->
+
+   <div data-role="page" id="home">
+<!--데이터룰속성에 page라고 쓰면-->      
+<!--즉시 한개의 페이지가 생성된다 -->
+<!--다이브태그마다 데이터룰 페이지를 넣으면 
+독립된 페이지로서 작동을 한다 -->
+      <div data-role="header" data-theme="b">
+         <!-- 데이터룰 헤더는 머리말영역-->
+         <h1>독도 소개 앱</h1>
+      </div>
